@@ -10,16 +10,25 @@ Tennis scoring system written in TypeScript.
 
 Handles 1 set with tie breaker.
 
-## Setup
+## Getting Started
 
-```shell
-npm install
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You will need node version `8` or higher
+
+Clone the repository
+
+```bash
+$ git clone https://github.com/eddiemoore/json-search.git
+$ cd json-search
 ```
 
-## Run tests
+Install dependencies
 
-```shell
-npm test
+```bash
+$ npm install
 ```
 
 ## Example usage
@@ -49,3 +58,13 @@ match.pointWonBy('player 1')
 // this will return "1-0"
 match.score()
 ```
+
+## Running Tests
+
+```bash
+$ npm test
+```
+
+## Licence
+
+The MIT License (MIT)
